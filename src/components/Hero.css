@@ -1,0 +1,25 @@
+.flexcontainer{
+    background-color:rgb(7, 12, 62) ;
+    width: 100%;
+    background: linear-gradient(135deg,rgb(7, 10, 52), #494d77);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 10;
+     padding: 10% 5% 10% 10%;
+    
+}
+.contents {
+    color: white;
+    /* max-width: 40%; */
+    /* max-width: 600px; */
+}
+.image{
+    width:  500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 60%;
+
+}
