@@ -12,11 +12,12 @@
     margin: auto;
 }
 
-.cards{
+.cardflex{
     display: flex;
     flex-direction: row;
     gap: 70px;
     justify-content: center;
+    
 }
 .abouttitle{
     font-weight: 700;
@@ -30,4 +31,16 @@
     margin-right: 100px;
     margin-bottom: 50px;
     color: darkblue;
+}
+/* .cardflex{ */
+    display: flex;
+    flex-direction: row;
+/* } */
+.card{
+    /* background-color: rgb(61, 129, 129); */
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+}
+.card:hover{
+    transform: scale(1.02);
+    background-color:rgb(198, 198, 218);
 }
