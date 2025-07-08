@@ -3,6 +3,7 @@ import React from 'react'
 
 export default function Footer1() {
   return (
+    <section id="contactus">
     <div className="footerbox">
         <div className="body">
         <h1 className="footertitle">Get In Touch</h1>
@@ -33,5 +34,6 @@ export default function Footer1() {
 
 
     </div>
+    </section>
   )
 }
