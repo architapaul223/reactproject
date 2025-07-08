@@ -2,10 +2,13 @@
 // import './App.css';
 
 import About from './components/About';
-
+import Footer1 from './components/Footer1';
+import Footer2 from './components/Footer2';
 import Hero from './components/Hero';
+import Skills from './components/Skills';
 import NavBar from './components/NavBar';
-
+import Projects from './components/Projects';
+// import Skills from './components/Skills';
 
 function App() {
   return (
@@ -14,13 +17,13 @@ function App() {
     <NavBar/>
     <Hero/>
     <About/>
-    {/* <Skills/>
+    <Skills/>
     <Projects/>
-    <Footer/>
-     */}
+    <Footer1/>
+    <Footer2/>
 
    
-    </>
+     </> 
   );
 }
 
