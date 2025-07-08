@@ -29,16 +29,16 @@ export default function NavBar(props) {
           <a className="nav-link active"  href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">About</a>
+          <a className="nav-link" href="#aboutus">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Skills</a>
+          <a className="nav-link" href="#skills">Skills</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Projects</a>
+          <a className="nav-link" href="#projects">Projects</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Contact</a>
+          <a className="nav-link" href="#contactus">Contact</a>
         </li>
         <li className="nav-item">
           {/* <a className="nav-link disabled" aria-disabled="true">Disabled</a> */}
