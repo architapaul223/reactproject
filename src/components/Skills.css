@@ -1,0 +1,22 @@
+.skillbox{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    padding-top: 65px;
+}
+.skillimage{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    /* object-fit: cover; */
+    /* padding-top: 60px; */
+
+}
+.skillheading{
+    font-weight: 700;
+    font-size: 60px;
+    color: black;
+}
