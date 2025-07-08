@@ -1,9 +1,12 @@
-import React from 'react'
+
+  
+ import React from 'react'
 import  "./Projects.css";
 
 export default function Projects() {
   return (
     <>
+    <section id="projects">
     <div className="project-container">
     <h1 className="projecttitle">Featured Projects</h1>
     <div className="projectcards">
@@ -50,6 +53,7 @@ export default function Projects() {
 </div>
     </div>
     </div>
+    </section>
     </>
   )
 }
