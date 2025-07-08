@@ -4,6 +4,7 @@ import React from 'react'
 export default function About() {
   return (
     // <>
+    <section id="aboutus">
     <div className="aboutme">
     
       <h1 className="abouttitle">ABOUT ME</h1>
@@ -51,8 +52,11 @@ export default function About() {
  
 
       </div>
-
+// </section>
   )
 }
    
-   
+    
+ 
+
+     
